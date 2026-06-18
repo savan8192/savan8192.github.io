@@ -1,0 +1,31 @@
+/* Custom Styles for Portfolio */
+
+/* Smooth transitions for navigation buttons */
+a {
+    transition: all 0.3s ease;
+}
+
+/* Print styles for CV */
+@media print {
+    nav {
+        display: none;
+    }
+    
+    body {
+        background-color: white;
+    }
+}
+
+/* Ensure consistent spacing */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Link hover effects */
+a:not(.no-hover) {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.9;
+}
